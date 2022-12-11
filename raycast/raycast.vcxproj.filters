@@ -21,16 +21,73 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="textures.h">
-      <Filter>raycastC</Filter>
+    <ClInclude Include="defs.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="constants.h">
-      <Filter>raycastC</Filter>
+    <ClInclude Include="textures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="upng.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="upng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="textures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Main.c">
-      <Filter>raycastC</Filter>
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ray.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="player.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
